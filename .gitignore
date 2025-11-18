@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project-specific ignores ---
+
+# Our virtualenv (already covered, but safe)
+venv/
+
+# Jupyter checkpoints (already covered too but fine)
+.ipynb_checkpoints/
+
+# Models & artifacts
+models/saved_models/
+*.pkl
+*.joblib
+*.h5
+*.log
+
+# Data: ignore everything in data/ except the 3 Kaggle base files
+data/*
+!data/interactions.csv
+!data/items.csv
+!data/sample_submission.csv
