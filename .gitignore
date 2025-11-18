@@ -223,6 +223,6 @@ models/saved_models/
 
 # Data: ignore everything in data/ except the 3 Kaggle base files
 data/*
-!data/interactions.csv
+!data/interactions_train.csv
 !data/items.csv
 !data/sample_submission.csv
